@@ -25,5 +25,6 @@
     "rules": {
         "prettier/prettier": "error",
         "indent": [4, "space"],
+        "class-methods-use-this": "off",
     }
 }
