@@ -5,19 +5,19 @@ class User{
     @PrimaryGeneratedColumn('uuid')
     id: string
 
-    @Column('name')
+    @Column()
     name: string
 
-    @Column('email')
+    @Column()
     email: string
 
-    @Column('password')
+    @Column()
     password: string;
 
-    @CreateDateColumn('created_at')
+    @CreateDateColumn()
     created_at: Date
 
-    @UpdateDateColumn('updated_at')
+    @UpdateDateColumn()
     updated_at: Date
 }
 
