@@ -26,5 +26,8 @@
         "prettier/prettier": "error",
         "indent": [4, "space"],
         "class-methods-use-this": "off",
+        "@typescript-eslint/no-unused-vars": ["error", {
+            "argsIgnorePattern": "_"
+        }]
     }
 }
