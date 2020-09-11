@@ -2,3 +2,5 @@ node_modules/
 tmp/*
 !tmp/.gitkeep
 temp/
+coverage/Icov-report/appointments
+coverage/Icov-report/users
